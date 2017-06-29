@@ -32,18 +32,18 @@ body {
 
 
 .jumbotron {
-  height: 44rem;
-  padding-top: 10rem;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    height: 44rem;
+    padding-top: 10rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 .jumbotron-bike {
@@ -78,13 +78,13 @@ body {
 
 @media only screen and (max-width: 767px) {
   .jumbotron h1 {
-    font-size: 5.7rem;
+      font-size: 5.7rem;
   }
 }
 
 @media only screen and (max-width: 550px) {
   .jumbotron h1 {
-    font-size: 4rem;
+      font-size: 4rem;
   }
 }
 
@@ -96,22 +96,22 @@ body {
 }
 
 .btn-primary {
-  width: 160px;
-  padding: 1.3rem 0;
-  border: 0;
-  margin-top: 2.8rem;
-  background-color: #399bd1;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  transition: .5s box-shadow;
+    width: 160px;
+    padding: 1.3rem 0;
+    border: 0;
+    margin-top: 2.8rem;
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    transition: .5s box-shadow;
 }
 
 .btn-primary:hover {
-  background-color: #399bd1;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+    background-color: #399bd1;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
 .btn-primary:active {
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
 
@@ -120,18 +120,24 @@ body {
 .featured-project {
   margin-top: -7rem; /* To account for relatively positioned button */
 }
+.featured-project h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
 
 .featured-project .image-container {
-  height: 19rem;
-  margin-top: 20px; /* To match bootstrap header margins */
+    height: 19rem;
+    margin-top: 20px; /* To match bootstrap header margins */
 }
 
 .categories h3 {
-  color: #399bd1;
+    color: #399bd1;
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 .categories ul {
-  color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 /* Project Image Containers */
@@ -140,28 +146,36 @@ img {
 }
 
 .image-container {
-  overflow: hidden;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgba(200,200,200,.8);
 }
 
 .image-container img {
-  opacity: 0.7;
-  transition: transform .5s,
+    opacity: 0.7;
+    transition: transform .5s,
               opacity .5s;
-  transition: transform .5s,
+    transition: transform .5s,
               opacity .5s;
 }
 
 .image-container img:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
+    opacity: 1;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 /* PROJECTS */
 
 .projects {
     margin-bottom: 5.85rem;
+}
+.projects h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 25px;
+    
 }
 
 /* HAVING TROUBLE PAGE */
